@@ -1,3 +1,5 @@
+using IdentityServer4.Services;
+using IdentityServer4.Validation;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -8,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TestIdentityServer4.AppClients;
+using TestIdentityServer4.Extensions;
 using TestIdentityServer4.IdentityConfiguration;
 
 namespace TestIdentityServer4
@@ -27,8 +30,11 @@ namespace TestIdentityServer4
       .AddInMemoryIdentityResources(Resources.GetIdentityResources())
       .AddInMemoryApiResources(Resources.GetApiResources())
       .AddInMemoryApiScopes(Scopes.GetApiScopes())
-      .AddTestUsers(Users.Get())
-      .AddDeveloperSigningCredential();
+      //.AddTestUsers(Users.Get())
+      .AddDeveloperSigningCredential()
+      .AddCustomUserStore();
+            services.AddTransient<IResourceOwnerPasswordValidator, ResourceOwnerPasswordValidator>();
+           services.AddTransient<IProfileService, ProfileService>();
             services.AddControllersWithViews();
 
         }

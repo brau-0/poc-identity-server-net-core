@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -34,6 +35,12 @@ namespace TestIdentity.MVC.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync("cookie");
+            await HttpContext.SignOutAsync("oidc");
+            return new SignOutResult(new[] { "oidc", "cookie" });
         }
     }
 }

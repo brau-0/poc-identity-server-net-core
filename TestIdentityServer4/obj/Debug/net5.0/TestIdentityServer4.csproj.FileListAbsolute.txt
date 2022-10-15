@@ -60,3 +60,4 @@ E:\Central LIMS\POC Login\Login\TestIdentityServer\TestIdentityServer4\obj\Debug
 E:\Central LIMS\POC Login\Login\TestIdentityServer\TestIdentityServer4\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 E:\Central LIMS\POC Login\Login\TestIdentityServer\TestIdentityServer4\obj\Debug\net5.0\TestIdentityServer4.RazorTargetAssemblyInfo.cs
 E:\Central LIMS\POC Login\Login\TestIdentityServer\TestIdentityServer4\obj\Debug\net5.0\TestIdentityServer4.Views.pdb
+E:\Central LIMS\POC Login\Login\TestIdentityServer\TestIdentityServer4\obj\Debug\net5.0\TestIdentityServer4.csproj.AssemblyReference.cache

@@ -10,7 +10,6 @@ E:\Central LIMS\POC Login\Login\TestIdentityServer\TestIdentity.Api.Client\bin\D
 E:\Central LIMS\POC Login\Login\TestIdentityServer\TestIdentity.Api.Client\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 E:\Central LIMS\POC Login\Login\TestIdentityServer\TestIdentity.Api.Client\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
 E:\Central LIMS\POC Login\Login\TestIdentityServer\TestIdentity.Api.Client\bin\Debug\netcoreapp3.1\System.Text.Json.dll
-E:\Central LIMS\POC Login\Login\TestIdentityServer\TestIdentity.Api.Client\obj\Debug\netcoreapp3.1\TestIdentity.Api.Client.csproj.AssemblyReference.cache
 E:\Central LIMS\POC Login\Login\TestIdentityServer\TestIdentity.Api.Client\obj\Debug\netcoreapp3.1\TestIdentity.Api.Client.GeneratedMSBuildEditorConfig.editorconfig
 E:\Central LIMS\POC Login\Login\TestIdentityServer\TestIdentity.Api.Client\obj\Debug\netcoreapp3.1\TestIdentity.Api.Client.AssemblyInfoInputs.cache
 E:\Central LIMS\POC Login\Login\TestIdentityServer\TestIdentity.Api.Client\obj\Debug\netcoreapp3.1\TestIdentity.Api.Client.AssemblyInfo.cs

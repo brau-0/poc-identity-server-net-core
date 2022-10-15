@@ -47,9 +47,7 @@ namespace TestIdentity.Api
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
-               // app.UseSwagger();
-               // app.UseSwaggerUI(c => c.SwaggerEndpoint("https://procodeguide.b-cdn.net/swagger/v1/swagger.json", "ProCodeGuide.IdServer4.WebAPI v1"));
+                app.UseDeveloperExceptionPage();             
             }
 
             app.UseHttpsRedirection();

@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = TestIdentity.Api
+build_property.ProjectDir = E:\Central LIMS\POC Login\Login\TestIdentityServer\TestIdentity.Api\
